@@ -12,7 +12,6 @@ body {
     font-weight: bold;
 }
 
-
 .navbar {
     background-color: #001f3f !important; /* Navy blue */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
@@ -24,10 +23,6 @@ body {
 
 .navbar .nav-link:hover {
     color: #ccc !important; /* Optional: Change link hover color */
-
-
-    background-color: #001f3f; /* Navy blue */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Hero section styling */
@@ -55,49 +50,41 @@ h2 {
     color: #003d99;
 }
 
-/* Project section styling */
-#projects .row {
-    margin-bottom: 30px;
+/* Skills Section Styling */
+#skills ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card {
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    border: none;
+#skills li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #000000; /* Change skill text to black */
 }
 
-.card:hover {
-    transform: scale(1.05);
+#skills h2 {
+    font-size: 2.5rem; /* Match the size and format of 'About Me' */
+    font-weight: bold;
+    color: #003d99; /* Navy blue for headings */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/* Image styling */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+#skills h5 {
+    font-size: 1.25rem; /* Adjust subheading size */
+    font-weight: bold;
+    color: #003d99; /* Navy blue for subheadings */
+    text-align: left; /* Align subheadings to the left */
+    margin-bottom: 10px;
 }
 
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    font-size: 0.9rem;
+#skills .col-md-4 {
+    border-left: 1px solid #ddd; /* Dividers between columns */
+    padding-left: 20px; /* Add spacing for readability */
 }
 
-footer p {
-    margin: 0;
-}
-
-/* Button styling */
-.btn-primary {
-    background-color: #0066cc;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: #004d99;
+#skills .col-md-4:first-child {
+    border-left: none; /* Remove left border from the first column */
 }
 
 /* Responsive adjustments */
@@ -113,4 +100,39 @@ footer p {
     h2 {
         font-size: 2rem;
     }
+}
+
+
+/* Certificates Section Styling */
+#certificates h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003d99; /* Navy blue for subheadings */
+    margin-top: 20px;
+}
+
+#certificates table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#certificates table th, #certificates table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#certificates table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Update footer background color to navy blue */
+footer {
+    background-color: #001f3f; /* Navy Blue */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
 }
