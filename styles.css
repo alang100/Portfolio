@@ -136,3 +136,22 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
+#contact-line {
+    padding-bottom: 0 !important; /* Remove extra space at the bottom */
+    margin-bottom: 0 !important; /* Ensure no margin is left */
+}
+
+#contact-details .contact-info {
+    text-align: left; /* Align the content to the left */
+    display: inline-block; /* Make the container adjust to the content's width */
+    padding-top: 5px; /* Reduce top padding */
+    margin-top: 0; /* Remove any margin */
+    margin: 0 auto; /* Center the container horizontally within its parent */
+}
+
+
+
+
+
+

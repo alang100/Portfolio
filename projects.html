@@ -11,7 +11,7 @@
     <!-- Hero Section -->
     <header class="bg-black text-white text-center py-5">
         <div class="container">
-            <h1>Alan Gaugler</h1>
+            <h1>&nbsp;</h1>
             <h1>Projects</h1>
             <p class="lead">A showcase of my work and accomplishments</p>
         </div>
@@ -40,8 +40,10 @@
         <div class="container">
             <h2 class="text-center mb-4">Projects</h2>
             <p>I have completed a diverse range of data science projects through university, professional work, and my spare time. 
-                These projects cover various domains and demonstrate my proficiency in tools such as Python, R, SQL, and Power BI. 
-                Highlighted below are a collection of the most impactful and intriguing projects I have worked on.</p>
+                These projects cover various domains and demonstrate my proficiency in tools such as Python, R, Tableau, and Power BI. 
+                Highlighted below are a collection of the most impactful and intriguing projects I have worked on.</p>            
+            <p>Watch this space for more interesting and insighful data science projects coming soon.</p>
+            
 
             <!-- Project 1 -->
             <div class="row mb-5">
@@ -50,10 +52,13 @@
                 </div>
                 <div class="col-md-8">
                     <h3>Natural Language Processing to Categorize News Articles</h3>
-                    <p>Built a natural language processing (NLP) model to classify news articles by category.</p>
+                    <p>This project focused on classifying over 210,000 HuffPost news article headlines into predefined categories using Natural Language Processing (NLP) techniques. It involved:</p>
                     <ul>
-                        <li>Achieved 90% classification accuracy using TF-IDF and neural networks.</li>
-                        <li>Created a scalable text classification pipeline.</li>
+                        <li>Utilised Python, Keras, NLTK and other libraries for data preprocessing and visualization.</li>
+                        <li>Prepared the text data using TF-IDF vectorization, tokenization, and sequence padding.</li>
+                        <li>Developed a Logistic Regression model for a baseline, followed by GRU and LSTM deep learning models.</li>
+                        <li>Achieved 69.3% classification accuracy for 31 news article categories, a significant improvement over the baseline, 
+                            demonstrating the effectiveness of data preparation and deep learning for NLP tasks.</li>
                     </ul>
                     <a href="https://github.com/alang100/NLP_to_Categorize_News_Articles" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
@@ -66,10 +71,14 @@
                 </div>
                 <div class="col-md-8">
                     <h3>ACT Crime Power BI Dashboard</h3>
-                    <p>Designed an interactive Power BI dashboard to visualize crime trends in Canberra.</p>
+                    <p>Developed interactive Power BI dashboards to analyze and visualize crime trends in Canberra, utilizing datasets sourced from the ACT Police website.</p>
                     <ul>
-                        <li>Highlighted patterns in crime data for stakeholder insights.</li>
-                        <li>Improved accessibility of complex datasets through visualization.</li>
+                        <li>Wrangled datasets using Python, Excel and Power Query for smooth integration into Power BI.</li>
+                        <li>Created custom DAX measures for calculations and aggregations, enabling dynamic data analysis and visualization.</li>
+                        <li>Designed two dashboards for different data formats (June 2022 and August 2024 datasets).</li>
+                        <li>Incorporated geographic visualizations to highlight crime patterns by suburb and district.</li>
+                        <li>Prepared the PBIX files for future updates with automated data wrangling scripts.</li>
+                        <li>Developed brief presentations to showcase the key insights and findings derived from the dashboard.</li>
                     </ul>
                     <a href="https://github.com/alang100/ACT-Crime-Power-BI-Dashboard" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
@@ -82,10 +91,13 @@
                 </div>
                 <div class="col-md-8">
                     <h3>Predictive Modeling of Eating Out in Sydney</h3>
-                    <p>Analyzed dining-out trends in Sydney, integrating external factors such as weather and events.</p>
+                    <p>Analyzed dining-out trends in Sydney using a real-world dataset of over 10,000 restaurants utilizing Python.</p>
                     <ul>
-                        <li>Developed models to predict customer preferences.</li>
-                        <li>Visualized trends using Power BI dashboards.</li>
+                        <li>Explored the relationships between restaurant ratings, cost, and cuisines to identify trends and patterns.</li>
+                        <li>Built regression models to predict numeric customer ratings based on features like cost, location, and cuisine type.</li>
+                        <li>Developed classification models to categorize restaurants into two success levels based on ratings: High and Low.</li>
+                        <li>Applied feature engineering techniques such as target encoding, one-hot encoding, and log transformations to optimize model performance.</li>
+                        <li>Deployed results in a Docker container for reproducibility and showcased findings with an interactive Tableau Dashboard.</li>
                     </ul>
                     <a href="https://github.com/alang100/DSTS_Predictive_Modelling_Of_Eating_Out_In_Sydney" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
@@ -98,26 +110,29 @@
                 </div>
                 <div class="col-md-8">
                     <h3>Black Hole Cyber Attack Detection in Wireless MANET Networks</h3>
-                    <p>Optimized wireless protocols for mobile ad hoc networks using machine learning to enhance network performance and stability.</p>
+                    <p>Led and managed a capstone project aimed at enhancing the security of Mobile Ad Hoc Networks (MANETs) by using machine learning to detect black hole cyber attacks. The project optimized the AODV routing protocol to address disruptions caused by malicious nodes.</p>
                     <ul>
-                        <li>Developed predictive models for MANET traffic routing.</li>
-                        <li>Improved network reliability through simulation-driven insights.</li>
+                        <li>Simulated MANET networks with the NS3 simulator, incorporating black hole attack scenarios for analysis.</li>
+                        <li>Developed a Python script to transform AODV protocol messaging between network nodes into a machine learning usable dataset.</li>
+                        <li>Developed accurate machine learning models using Scikit-learn to detect and classify malicious nodes.</li>
                     </ul>
                     <a href="https://github.com/alang100/2023_Capstone_MANET" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
             </div>
 
-            <!-- Project 5 -->
             <div class="row mb-5">
                 <div class="col-md-4">
                     <img src="Planes.jpg" alt="Predicting Flight Delays" class="img-fluid">
                 </div>
                 <div class="col-md-8">
                     <h3>Predicting Flight Delays</h3>
-                    <p>Built a predictive model to forecast flight delays based on weather, time of day, and operational data.</p>
+                    <p>Developed a project to predict flight delays at major U.S. airports using Python machine learning techniques and cloud-based solutions. 
+                        The project utilized US flight data along with airport weather and holiday information to build predictive models.</p>
                     <ul>
-                        <li>Achieved 85% accuracy in delay predictions.</li>
-                        <li>Highlighted key delay factors for airline decision-making.</li>
+                        <li>Performed extensive feature engineering, including adding weather conditions, holiday indicators, and time-based features (e.g., departure hours, day of the week).</li>
+                        <li>Built baseline models locally and implemented advanced models, including XGBoost, using AWS SageMaker for scalable training and evaluation.</li>
+                        <li>Optimized classification thresholds to improve delay recall, achieving a significant performance boost for minority class predictions.</li>
+                        <li>Created a Tableau dashboard to visualize trends and delays, providing actionable insights for stakeholders.</li>
                     </ul>
                     <a href="https://github.com/alang100/DSTS_Predicting_Flight_Delays" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
@@ -129,10 +144,15 @@
                     <img src="Lorikeet.jpg" alt="Bird Species Classification" class="img-fluid">
                 </div>
                 <div class="col-md-8">
-                    <h3>Bird Species Classification</h3>
-                    <p>This project applied the use of machine learning techniques to classify 10 bird species using a dataset of images. Developed models including Random Forest, SVM, and CNN were evaluated using techniques like standardization and cross-validation.</p>
-                    <p>The CNN model achieved the highest accuracy at 83% on the test set, outperforming Random Forest (64%) and SVM (69%). Future work will include dataset expansion and further advanced modelling techniques.</p>
-                    <p>Modelling libraries include Scikit-learn and Tensorflow.</p>
+                    <h3>Bird Species Image Classification</h3>
+                    <p>Developed a project to classify images of 10 bird species using machine learning techniques. Various models, including Random Forest, 
+                        Support Vector Machine (SVM), and Convolutional Neural Networks (CNN), were built and evaluated for accuracy and performance.</p>
+                    <ul>
+                        <li>Performed data preprocessing, including standardization, and cross-validation with hyperparameter tuning.</li>
+                        <li>Achieved 83% accuracy with an 8-layer CNN model, outperforming Random Forest (64%) and SVM (69%).</li>
+                        <li>Utilized Scikit-learn and TensorFlow libraries for model development and evaluation.</li>
+                        <li>Identified overfitting as a challenge and proposed dataset expansion and data augmentation for future improvements.</li>
+                    </ul>
                     <a href="https://github.com/alang100/PRML_Bird_Species_Classification" target="_blank" class="btn btn-primary">View Project</a>
                 </div>
             </div>
