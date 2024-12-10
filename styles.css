@@ -27,10 +27,28 @@ body {
 
 /* Hero section styling */
 header {
-    background: url('StarryNight.jpg') no-repeat center center/cover;
+    background: url('green_text.jpg') no-repeat center center/cover;
     color: white;
     padding: 50px 0;
 }
+.projects-header{
+    background: url('DarkSurf.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.certificates-header{
+    background: url('stars3.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.contact-header {
+    background: url('grey_mtn.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
 
 header h1 {
     font-size: 3rem;
