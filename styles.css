@@ -27,7 +27,7 @@ body {
 
 /* Hero section styling */
 header {
-    background: url('green_text.jpg') no-repeat center center/cover;
+    background: url('Data1.jpg') no-repeat center center/cover;
     color: white;
     padding: 50px 0;
 }
@@ -38,13 +38,19 @@ header {
 }
 
 .certificates-header{
-    background: url('stars3.jpg') no-repeat center center/cover;
+    background: url('StarryNight.jpg') no-repeat center center/cover;
     color: white;
     padding: 50px 0;
 }
 
 .contact-header {
     background: url('StarryMountain.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px 0;
+}
+
+.resume-header {
+    background: url('green_text.jpg') no-repeat center center/cover;
     color: white;
     padding: 50px 0;
 }
@@ -166,6 +172,33 @@ footer {
     padding-top: 5px; /* Reduce top padding */
     margin-top: 0; /* Remove any margin */
     margin: 0 auto; /* Center the container horizontally within its parent */
+}
+
+/* Horizontal Line */
+.project-divider {
+    border: 0;
+    border-top: 5px solid #001f3f; /* Navy blue */
+    margin: 30px 0;
+    width: 100%;
+}
+
+
+/* Button Styles */
+.btn-primary {
+    background-color: #001f3f;
+    border-color: #001f3f;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+    border-color: #004080;
 }
 
 
