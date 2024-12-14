@@ -177,11 +177,10 @@ footer {
 /* Horizontal Line */
 .project-divider {
     border: 0;
-    border-top: 5px solid #001f3f; /* Navy blue */
+    border-top: 5px solid #001f3f !important; /* Navy blue */
     margin: 30px 0;
     width: 100%;
 }
-
 
 /* Button Styles */
 .btn-primary {
@@ -200,9 +199,3 @@ footer {
     background-color: #004080;
     border-color: #004080;
 }
-
-
-
-
-
-
